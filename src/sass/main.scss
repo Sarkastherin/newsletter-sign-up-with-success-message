@@ -65,7 +65,7 @@ button {
       li {
         margin: 12px 0;
         &::before {
-          content: url(/public/assets/images/icon-list.svg);
+          content: url(/src/assets/images/icon-list.svg);
           vertical-align: middle;
           margin-right: 15px;
         }
@@ -111,7 +111,7 @@ button {
   }
   .cover {
     width:45%;
-    content: url(/public/assets/images/illustration-sign-up-desktop.svg);
+    content: url(/src/assets/images/illustration-sign-up-desktop.svg);
     img {
       width: 100%;
     }
@@ -127,7 +127,7 @@ button {
   animation-name: anime;
   animation-duration: 1.5s;
   .icon-success {
-    content: url(/public/assets/images/icon-success.svg);
+    content: url(/src/assets/images/icon-success.svg);
     margin-bottom: 30px;
   }
   button {
@@ -170,7 +170,7 @@ button {
     }
     .cover {
         width: 100%;
-        content: url(/public/assets/images/illustration-sign-up-mobile.svg);
+        content: url(/src/assets/images/illustration-sign-up-mobile.svg);
     }
   }
 }

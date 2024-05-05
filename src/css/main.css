@@ -62,7 +62,7 @@ button:hover {
   margin: 12px 0;
 }
 .card .content ul li::before {
-  content: url(/public/assets/images/icon-list.svg);
+  content: url(/src/assets/images/icon-list.svg);
   vertical-align: middle;
   margin-right: 15px;
 }
@@ -91,10 +91,6 @@ button:hover {
   border: hsl(231, 7%, 60%) 1px solid;
   margin-bottom: 25px;
 }
-.card .content form input::-moz-placeholder {
-  font-size: 1rem;
-  color: hsl(231, 7%, 60%);
-}
 .card .content form input::placeholder {
   font-size: 1rem;
   color: hsl(231, 7%, 60%);
@@ -106,15 +102,12 @@ button:hover {
   border: rgb(255, 98, 87) 1px solid;
   background-color: rgba(255, 98, 87, 0.15);
 }
-.card .content form input.invalid::-moz-placeholder {
-  color: rgb(255, 98, 87);
-}
 .card .content form input.invalid::placeholder {
   color: rgb(255, 98, 87);
 }
 .card .cover {
   width: 45%;
-  content: url(/public/assets/images/illustration-sign-up-desktop.svg);
+  content: url(/src/assets/images/illustration-sign-up-desktop.svg);
 }
 .card .cover img {
   width: 100%;
@@ -131,7 +124,7 @@ button:hover {
   animation-duration: 1.5s;
 }
 .card-success .icon-success {
-  content: url(/public/assets/images/icon-success.svg);
+  content: url(/src/assets/images/icon-success.svg);
   margin-bottom: 30px;
 }
 .card-success button {
@@ -173,6 +166,8 @@ button:hover {
   }
   .card .cover {
     width: 100%;
-    content: url(/public/assets/images/illustration-sign-up-mobile.svg);
+    content: url(/src/assets/images/illustration-sign-up-mobile.svg);
   }
 }
+
+/*# sourceMappingURL=main.css.map */
